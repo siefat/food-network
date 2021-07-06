@@ -59,10 +59,19 @@ h1{
     box-shadow: 5px 5px 20px gray;
     margin: 2% 5%;
     border-radius: 15px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .food-item{
     margin: 5% 5%;
     border-radius: 10px;
 }
-    
+.text{
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+.bg-color{
+    text-align: center;
+    background-color:rgb(2, 2, 29);
+    padding: 100px;
+}
