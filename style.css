@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -7,27 +8,43 @@ h1{
 .orange{
     color: orange;
 }
+.color-gray{
+    color: rgb(88, 87, 87);
+}
 .half-width{
     width: 50%;
     margin-top: 10% ;
     margin-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 
 }
-section{
+#display-flex{
     display: flex;
-
+    margin-bottom: 3%;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
+    margin-top:  10px;
+    position: absolute;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 50px;
     border-radius: 30px;
-    margin-top: 40px;
 }
-.color-gray{
-    color: rgb(88, 87, 87);
+.half-width-about img{
+    width: 70%;
+    margin-left: 5%;
+}
+.half-width-about{
+    width: 50%;
+    padding-left: 15%;
+    padding-top: 5%;
+
+}
+.bg-add{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+
 }
